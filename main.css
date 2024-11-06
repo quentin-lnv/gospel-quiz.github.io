@@ -11,11 +11,11 @@ h1	{
 	flex-direction: column;
 
 }
-.question-suivante{
+.next{
 	background:#ffffff;
 	border:2px solid black;
 
 }
-.question-suivante{
+.next hover {
 
 }
