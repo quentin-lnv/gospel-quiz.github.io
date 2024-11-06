@@ -14,7 +14,7 @@ const questions = [
     { 
         question: "Quelle histoire peut être trouvée dans les quatre évangiles ? (Une réponse correcte)", 
         answers: ["Le Baptême de Jésus", "La Naissance de Jésus", "Les Rois Mages", "La Tentation de Jésus"], 
-        correct: 0,
+        correct: [0, 0],
         type: "multiple-choice"
     },
     { 
