@@ -3,7 +3,10 @@
 h1	{
 	font-family: Figtree;
 	text-decoration: bold;
+
 }
 .container{
 	margin: 15px;
+	display:flex;
+
 }
