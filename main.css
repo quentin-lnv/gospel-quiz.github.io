@@ -11,3 +11,7 @@ h1	{
 	flex-direction: column;
 
 }
+.question-suvante{
+	color:#fff;
+	border:2px solid black;
+}
