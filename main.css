@@ -8,5 +8,6 @@ h1	{
 .container{
 	margin: 15px;
 	display:flex;
+	flex-direction: column;
 
 }
