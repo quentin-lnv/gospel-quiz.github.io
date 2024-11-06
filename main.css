@@ -11,7 +11,11 @@ h1	{
 	flex-direction: column;
 
 }
-.question-suvante{
-	color:#fff;
+.question-suivante{
+	color:#ffffff;
 	border:2px solid black;
+
+}
+.question-suivante{
+
 }
