@@ -7,6 +7,11 @@ const questions = [
         type: "multiple-choice"
     }, 
     { 
+        question: "Où se trouve l'histoire du centurion romain ?", 
+        correctAnswer: "Matthieu 8, Luc 7",
+        type: "text"
+    }
+    { 
         question: "Quelle histoire peut être trouvée dans les quatre évangiles ? (Une réponse correcte)", 
         answers: ["Le Baptême de Jésus", "La Naissance de Jésus", "Les Rois Mages", "La Tentation de Jésus"], 
         correct: 0,
@@ -19,11 +24,7 @@ const questions = [
         type: "multiple-choice"
     },
 
-    { 
-        question: "Où se trouve l'histoire du centurion romain ?", 
-        correctAnswer: "Matthieu 8, Luc 7",
-        type: "text"
-    }
+
 ];
 
 let currentQuestionIndex = 0;
