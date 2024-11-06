@@ -1,21 +1,38 @@
 /*Doctype CSS*/
 
+body{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
 h1	{
 	font-family: Figtree;
-	text-decoration: bold;
 
 }
-.container{
-	margin: 15px;
-	display:flex;
+
+.update{
+	font-size:10px;
+}
+
+#quiz{
 	flex-direction: column;
-
 }
-.next{
-	background:#ffffff;
+#answers {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; /* Space between buttons */
+    margin-top: 15px; /* Space above answer buttons */
+    margin-block: 15px;
+}
+
+button{
+	background: #fff;
+	width:250px;
+	padding: 10px;
 	border:2px solid black;
-
-}
-.next hover {
-
+	border-radius:5px;
 }
