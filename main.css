@@ -19,6 +19,9 @@ h1	{
 #quiz{
 	flex-direction: column;
 }
+.start-quiz:hover {
+	background-color: #000;
+}
 #answers {
     display: flex;
     flex-direction: row;
@@ -27,6 +30,15 @@ h1	{
     gap: 10px; /* Space between buttons */
     margin-top: 15px; /* Space above answer buttons */
     margin-block: 15px;
+}
+
+#text-answer{
+	height:30px;
+	width:30%;
+}
+
+#submit-btn{
+	margin:15px;
 }
 
 button{
